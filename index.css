@@ -10,5 +10,4 @@ h1 {
 ul li {
   <-- turns navigation bar horizontal -->
   display: inline;
-  text-align: center;
 }

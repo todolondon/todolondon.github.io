@@ -7,7 +7,7 @@ h1 {
   font-size: 50px;
   text-align: center;
 }
-ul li {
+li {
   <-- turns navigation bar horizontal -->
   display: inline;
   text-align: center;

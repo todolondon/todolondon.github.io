@@ -1,8 +1,11 @@
 body {
   background: url("./grid.svg");
   background-position: center;
+  color: black;
 }
 h1 {
+  font-size: 18px;
+  text-align: center;
 }
 li {
   <-- turns navigation bar horizontal -->

@@ -1,4 +1,5 @@
 body {
+  background: url("./grid.svg");
   background-position: center;
   color: white;
 }

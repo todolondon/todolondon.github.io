@@ -6,3 +6,13 @@ jumbotron {
   background-position: center;
   background-image: url("./london.jpg")
 }
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}

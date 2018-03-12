@@ -1,12 +1,10 @@
-body {
-  background: url("./grid.png");
-  background-position: center;
-  color: black;
-}
-
 jumbotron-header {
   padding-top: 250px;
   padding-bottom: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./grid.png")
 }
 
 h1 {

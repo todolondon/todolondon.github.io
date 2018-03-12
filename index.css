@@ -6,6 +6,8 @@ body {
 
 jumbotron-header {
   background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 h1 {

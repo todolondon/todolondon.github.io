@@ -1,5 +1,5 @@
 body {
-  background: url("./grid.svg");
+  background: url("./grid.png");
   background-position: center;
   color: black;
 }
@@ -7,7 +7,8 @@ h1 {
   font-size: 50px;
   text-align: center;
 }
-ul li {
+
+li {
   <-- turns navigation bar horizontal -->
   display: inline;
 }

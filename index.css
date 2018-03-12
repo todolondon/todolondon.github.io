@@ -1,8 +1,12 @@
-body {
-  background: url("./grid.png");
+jumbotron {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  color: black;
+  background-image: url("./london.jpg")
 }
+
 h1 {
   font-size: 50px;
   text-align: center;

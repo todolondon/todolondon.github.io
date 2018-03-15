@@ -28,13 +28,7 @@ li{
   padding: 5px 10px 5px 10px;
 }
 
-home_title {
-  padding-right: 20px;
-}
-
 ul{
-    display: block;
-    list-style-type: disc;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
@@ -46,6 +40,9 @@ ul{
     position: fixed;
     top: 0;
     width: 100%;
+    display: inline-block;
+    list-style-type: none;
+
 }
 
 li a {

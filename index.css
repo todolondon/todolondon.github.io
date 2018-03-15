@@ -1,14 +1,11 @@
-jumbotron {
-  padding-top: 250px;
-  padding-bottom: 250px;
+header {
+  display: table;
+  position: relative;
+  width: 100%
+  height: 100%
+  backgroung: url("./background pic.jpg") no-repeat center scroll;
+  background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("./london.jpg")
-}
-
-li {
-    float: left;
 }
 
 a {

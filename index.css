@@ -7,7 +7,7 @@ title {
   left: 50%
 }
 
-h1 {
+h1.title {
   color: white;
   font-size: 100px;
   left: 0;
@@ -15,10 +15,10 @@ h1 {
   position: absolute;
   top: 40%;
   width: 100%;
-  padding: 200px 300px 200px 300px;
+  padding: 150px 350px 200px 350px;
 }
 
-a.button {
+a.title {
   padding-top: 400px;
 }
 

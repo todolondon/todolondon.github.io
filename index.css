@@ -5,6 +5,16 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+  background-position: center;
+}
+
+h1{
+  padding: 10px;
+}
+
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
 }
 
 nav {

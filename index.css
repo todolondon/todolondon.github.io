@@ -1,5 +1,7 @@
 body {
   backgroung: url("./background pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header{
@@ -8,8 +10,6 @@ header{
   display: table;
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

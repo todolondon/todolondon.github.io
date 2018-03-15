@@ -10,6 +10,10 @@ h1 {
   padding: 100px 500px 100px 500px;
 }
 
+h2 {
+  padding: 700px 700px 700px 700px;
+}
+
 div {
   display: block;
 }

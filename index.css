@@ -1,13 +1,17 @@
 h1 {
   color: white;
-  font-size: 120px;
+  font-size: 100px;
   left: 0;
   line-height: 200px;
   margin: auto;
   position: absolute;
   top: 50%;
   width: 100%;
-  padding: 100px 500px 100px 500px;
+  padding: 50px 550px 100px 550px;
+}
+
+h2 {
+  padding: 700px 700px 700px 700px;
 }
 
 div {

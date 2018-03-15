@@ -6,6 +6,12 @@ header {
   background-repeat: no-repeat;
 }
 
+nav {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: -20px
+}
+
 a {
     display: block;
     padding: 8px;

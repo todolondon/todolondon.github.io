@@ -22,6 +22,11 @@ body {
   background-attachment: fixed;
 }
 
+button {
+  border-radius: 0;
+  color: white;
+}
+
 header{
   display: table;
   position: relative;

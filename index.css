@@ -2,6 +2,9 @@ title {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  position: absolute;
+  top: 50%
+  left: 50%
 }
 
 h1 {
@@ -13,6 +16,10 @@ h1 {
   position: absolute;
   top: 50%;
   width: 100%;
+}
+
+intro h2 {
+  padding-top: 200px;
 }
 
 div {

@@ -1,3 +1,7 @@
+body {
+  backgroung: url("./background pic.jpg");
+}
+
 header{
   display: table;
   position: relative;

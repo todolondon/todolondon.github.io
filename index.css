@@ -1,3 +1,9 @@
+title {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 h1 {
   color: white;
   font-size: 100px;
@@ -8,10 +14,6 @@ h1 {
   top: 50%;
   width: 100%;
   padding: 50px 550px 100px 550px;
-}
-
-h2 {
-  padding: 700px 700px 700px 700px;
 }
 
 div {

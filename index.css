@@ -23,6 +23,8 @@ div.hero {
   /* Text styles */
   text-align: center;
   color: white;
+
+  padding-bottom: 310px;
 }
 
 div h1 {
@@ -33,6 +35,8 @@ div h1 {
   /* Margins */
   margin-top: 14%;
   margin-bottom: 10%;
+
+  padding: 170px 500px 420px 500px;
 }
 
 a.button {

@@ -27,12 +27,12 @@ div.hero {
 
 div h1 {
   /* Text styles */
-  font-size: 100px;
+  font-size: 120px;
   color: white;
 
   /* Margins */
-  margin-top: 0;
-  margin-bottom: 0.5%;
+  margin-top: 14%;
+  margin-bottom: 10%;
 }
 
 a.button {
@@ -49,10 +49,10 @@ a.button {
   /* Text styles */
   color: white;
   text-decoration: none;
-  font-size: 54px;
+  font-size: 50px;
 
   /* Border styles */
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
 li{

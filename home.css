@@ -10,28 +10,31 @@ h1 {
 }
 
 .north {
-  background: url("./northlondon.jpeg");
+  background: url("./NORTH.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%
 }
 
 .east {
-  background: url("./background pic.jpg");
+  background: url("./EAST.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%
 }
 
 .west {
-  background: url("./westlondon.jpeg");
+  background: url("./WEST.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%
 }
 
 .south {
-  background-color: yellow;
+  background: url("./SOUTH.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%
 }
 
 .line {

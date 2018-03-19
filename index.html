@@ -8,12 +8,11 @@
   <title>to do london</title>
 
   <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href='css/bootstrap.min.css' rel='stylesheet'>
   <link rel='stylesheet' type='text/css' href=' index.css'>
   <script   src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous">
   </script>
 </head>
-
-
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -27,7 +26,7 @@
       <a class="navbar-brand" href="./home.html">T O D O L O N D O N</a>
     </div>
   <div class="collapse navbar-collapse" id="codebrainery-toggle-nav">
-  <ul class="navbar">
+  <ul class="nav navbar-nav">
     <li class="home">
       <a class="home_title" href="./home.html">HOME</a>
     </li>
@@ -60,8 +59,13 @@
   <script src="./scripts.js">
   </script>
 
-  <script src="js/bootstrap.js">
-  </script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+</script>
 
 </body>
 

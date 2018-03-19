@@ -65,22 +65,5 @@ a.button {
 /*navbar css*/
 
 li{
-  display: inline;
+  display: block;
 }
-
-div.container-fluid {
-    font-size: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: inline-block;
-    list-style-type: none;
-    text-align: center;
-}
-
-li a {
-    text-decoration: none;
-    transition: 1s;
-    line-height: 1.8;
-    height: 100%;
-  }

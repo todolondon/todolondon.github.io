@@ -9,6 +9,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
+  padding-top: 70px;
 }
 
 div.hero {
@@ -61,30 +62,8 @@ a.button {
   border: 2px solid white;
 }
 
+/*navbar css*/
+
 li{
-  display: inline;
-  padding: 5px 10px 5px 10px;
+  display: block;
 }
-
-ul{
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-    font-size: 20px;
-    margin-top: -10px;
-    margin-left: -20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: inline-block;
-    list-style-type: none;
-    text-align: center;
-}
-
-li a {
-    text-decoration: none;
-    transition: 1s;
-    line-height: 1.8;
-    height: 100%;

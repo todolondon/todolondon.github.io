@@ -69,6 +69,10 @@ li{
   padding: 0px 68px 0px 68px;
 }
 
+nav.navbar{
+  background-color: white;
+}
+
 /*breakpoint of the navbar*/
 
 @media (max-width: 1260px) {
@@ -106,4 +110,52 @@ li{
   .collapse.in{
       display:block !important;
   }
+}
+
+/*footer*/
+
+div.card{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+li.us {
+  display: inline;
+  font-size: 17px;
+  color: grey;
+  text-align: center;
+}
+
+ul.card-body{
+  padding: 15px;
+}
+
+div.subsribe{
+  text-align: center;
+  padding: 47px;
+}
+
+a.fa{
+font-size: 30px;
+padding: 30px;
+text-align: center;
+text-decoration: none;
+}
+
+a.fa:hover{
+  opacity: 0.7;
+}
+
+a.fa-facebook{
+  color: white;
+}
+
+a.fa-twitter{
+  color: white;
+}
+
+a.fa-instagram{
+  color: white;
 }

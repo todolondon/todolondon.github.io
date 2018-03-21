@@ -7,7 +7,7 @@ html,body {
  }
 
 h1 {
-  color: inherit;
+  color: grey;
 }
 
 .north {
@@ -68,7 +68,7 @@ h1 {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .3s ease;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -87,4 +87,8 @@ h1 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.span12{
+  border:solid 20px black;
 }

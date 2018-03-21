@@ -11,28 +11,28 @@ h1 {
 }
 
 .north {
-  /* background: url("./NORTH.jpg"); */
+  background: url("./NORTH1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 .east {
-  /* background: url("./EAST.jpg"); */
+  background: url("./EAST1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 .west {
-  /* background: url("./WEST.jpg"); */
+  background: url("./WEST1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 .south {
-  /* background: url("./SOUTH.jpg"); */
+  background: url("./SOUTH1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -47,11 +47,11 @@ h1 {
   height: 100%
 }
 
-
-.container {
+/* takes up full width of screen
+.container-fluid {
   position: relative;
   width: 50%;
-}
+} */
 
 .image {
   display: block;

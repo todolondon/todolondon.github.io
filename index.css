@@ -30,22 +30,26 @@ div.hero {
 
 div h1 {
   /* Text styles */
-  font-size: 120px;
+  font-size: 80px;
   font-family: menlo;
-  letter-spacing: -10px;
+  letter-spacing: 9px;
   color: white;
 
   /* Margins */
-  margin-top: 14%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 
-  padding: 159px 500px 420px 500px;
+  padding: 75px 0px 20px 0px;
+}
+
+h3{
+  font-family: menlo;
+  letter-spacing: 9px;
 }
 
 a.button {
   /* Positioning and sizing */
   display: block;
-  width: 200px;
+  width: 150px;
 
   /* Padding and margins */
   padding: 1%;
@@ -56,7 +60,8 @@ a.button {
   /* Text styles */
   color: white;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 28px;
+  font-family: menlo;
 
   /* Border styles */
   border: 2px solid white;
@@ -66,11 +71,14 @@ a.button {
 
 li{
   display: block;
-  padding: 0px 68px 0px 68px;
+  padding: 0px 64px 0px 64px;
+  letter-spacing: 2px;
 }
 
 nav.navbar{
   background-color: white;
+  font-family: menlo;
+  opacity: 0.7;
 }
 
 /*breakpoint of the navbar*/
@@ -119,6 +127,8 @@ div.card{
   background-color: black;
   color: white;
   text-align: center;
+  font-family: menlo;
+  opacity: 0.85;
 }
 
 li.us {
@@ -134,7 +144,7 @@ ul.card-body{
 
 div.subsribe{
   text-align: center;
-  padding: 47px;
+  padding: 45px;
 }
 
 a.fa{
@@ -158,4 +168,8 @@ a.fa-twitter{
 
 a.fa-instagram{
   color: white;
+}
+
+h2{
+  font-size: 13px;
 }

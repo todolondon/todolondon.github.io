@@ -9,6 +9,10 @@ html,body {
   font-family: 'Roboto Condensed', sans-serif;
  }
 
+ h1{
+     letter-spacing: 3px;
+ }
+
 /*navbar css*/
 
 li{

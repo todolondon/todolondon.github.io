@@ -3,12 +3,52 @@
 <html>
 
 <head>
-  <link href='css/bootstrap.css' rel='stylesheet'>
-  <link rel='stylesheet' type='text/css' href='north.css'>
+
   <!-- makes sure content is the same width as the device -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>N O R T H</title>
+
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link rel='stylesheet' type='text/css' href='north.css'>
+
   <script   src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 </head>
+
+<!-- navbar -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#codebrainery-toggle-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./home.html">T O D O L O N D O N</a>
+    </div>
+  <div class="collapse navbar-collapse" id="codebrainery-toggle-nav">
+  <ul class="nav navbar-nav">
+    <li class="home">
+      <a class="home_title" href="./home.html">HOME</a>
+    </li>
+    <li class="north">
+      <a href="./north.html">NORTH</a>
+    </li>
+    <li class="east">
+      <a href="./east.html">EAST</a>
+    </li>
+    <li class="west">
+      <a href="./west.html">WEST</a>
+    </li>
+    <li class="south">
+      <a href="./south.html">SOUTH</a>
+    </li>
+  </ul>
+  </div>
+</div>
+</nav>
 
 <body>
 <div class="container-fluid">
@@ -25,25 +65,25 @@
 		</div>
 	</div>
 	<br />
-	
+
 	<div class="row">
 		<div class="col-md-6">
 			<p class="MsoNormal">
 				<span>Wellcome Collection is a free museum and art collection dedicated to health, science, and medicine. It also has a lovely, comfortable library open to the public.</span>
-				
+
 			</p>
-			
+
 		</div>
 		<div class="col-md-6">
 			<img class="img-responsive" alt="Wellcome Collection" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Wellcome_Collection_Reading_Room.jpg/1280px-Wellcome_Collection_Reading_Room.jpg" width="550" height="350" />
 		</div>
 	</div>
 	<br />
-	
+
 	<div class="row">
 			<div class="col-md-6"><img class="img-responsive" alt="Freud Museum" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/London%2C_you%27re_awesome_%2815372960556%29.jpg/1280px-London%2C_you%27re_awesome_%2815372960556%29.jpg" width="550" height="350" />
 		</div>
-		
+
 		<div class="col-md-6">
 			<p>
 				Have you ever wondered what psychoanalysis is? Find out in the Freud Museum, based in what used to be the actual home of the late Freud family.
@@ -51,10 +91,10 @@
 		</div>
 	</div>
 </div>
-	
+
 <br />
-	
-<!-- navigation bar -->	
+
+<!-- navigation bar -->
 <div class="row">
 		<div class="col-md-12">
 			<ul class="nav">
@@ -63,9 +103,45 @@
 				</li>
 			</ul>
 		</div>
-</div>	
+</div>
+
+<!-- footer -->
+
+<div class="card">
+  <div class="card-body">
+    <ul class="card-body">
+      <li class="us">
+        <a href="./contactus.html" class="linkus">Contact us</a>
+      </li>
+      <li class="us">
+        <a href="./aboutus.html" class="linkus">About us</a>
+      </li>
+    </ul>
+
+    <div class="subsribe">
+     <h4>Subscribe to our mailing list!</h4><br>
+     <form>
+     <input type="text" placeholder="Name"/><br><br>
+     <input type="text" placeholder="Email"/><br><br>
+     <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+   </form>
+    </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <a href="http://facebook.com" class="fa fa-facebook"></a>
+    <a href="http://twitter.com" class="fa fa-twitter"></a>
+    <a href="http://instagram.com" class="fa fa-instagram"></a>
+
+<h2>Website designed by Moshsina Chowdhury, Yasmin Osman & Ada Kępińska.</h2>
+
+  </div>
+</div>
 
 <script src="./scripts.js"></script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

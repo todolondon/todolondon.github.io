@@ -1,5 +1,5 @@
 body{
-  padding-top: 70px;
+  padding: 10px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -64,6 +64,7 @@ nav.navbar{
 
 div.card{
   padding: 10px;
+  margin: 50px;
   background-color: black;
   color: white;
   text-align: center;

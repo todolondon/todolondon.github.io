@@ -35,7 +35,7 @@ div h1 {
   /* Text styles */
   font-size: 80px;
   font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 9px;
+  letter-spacing: 21px;
   color: white;
 
   /* Margins */
@@ -53,7 +53,7 @@ a.button {
   /* Positioning and sizing */
   display: block;
   width: 150px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 
   /* Padding and margins */
   padding: 1%;
@@ -75,7 +75,7 @@ a.button {
 
 li{
   display: block;
-  padding: 0px 64px 0px 64px;
+  padding: 0px 70px 0px 70px;
   letter-spacing: 2px;
 }
 
@@ -132,6 +132,7 @@ div.card{
   color: white;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
   opacity: 0.85;
 }
 

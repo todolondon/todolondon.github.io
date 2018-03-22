@@ -1,5 +1,6 @@
 body{
   padding-top: 70px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*navbar css*/
@@ -12,7 +13,7 @@ li{
 
 nav.navbar{
   background-color: white;
-  font-family: menlo;
+  font-family: 'Roboto Condensed', sans-serif;
   opacity: 0.7;
 }
 
@@ -62,7 +63,7 @@ div.card{
   background-color: black;
   color: white;
   text-align: center;
-  font-family: menlo;
+  font-family: 'Roboto Condensed', sans-serif;
   opacity: 0.85;
 }
 
@@ -143,7 +144,7 @@ li{
 
 nav.navbar{
   background-color: white;
-  font-family: menlo;
+  font-family: 'Roboto Condensed', sans-serif;
   opacity: 0.7;
 }
 
@@ -193,7 +194,7 @@ div.card{
   background-color: black;
   color: white;
   text-align: center;
-  font-family: menlo;
+  font-family: 'Roboto Condensed', sans-serif;
   opacity: 0.85;
 }
 
@@ -274,7 +275,7 @@ li{
 
 nav.navbar{
   background-color: white;
-  font-family: menlo;
+  font-family: Roboto Condensed', sans-serif;;
   opacity: 0.7;
 }
 
@@ -324,7 +325,7 @@ div.card{
   background-color: black;
   color: white;
   text-align: center;
-  font-family: menlo;
+  font-family: 'Roboto Condensed', sans-serif;
   opacity: 0.85;
 }
 

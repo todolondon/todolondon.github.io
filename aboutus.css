@@ -6,7 +6,7 @@ body{
 
 li{
   display: block;
-  padding: 0px 64px 0px 64px;
+  padding: 0px 70px 0px 70px;
   letter-spacing: 2px;
 }
 
@@ -62,7 +62,8 @@ div.card{
   background-color: black;
   color: white;
   text-align: center;
-  font-family: menlo;
+  font-family: 'Roboto Condensed', sans-serif;;
+  letter-spacing: 1px;
   opacity: 0.85;
 }
 

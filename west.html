@@ -3,12 +3,52 @@
 <html>
 
 <head>
-  <link href='css/bootstrap.css' rel='stylesheet'>
-  <link rel='stylesheet' type='text/css' href='west.css'>
+
   <!-- makes sure content is the same width as the device -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>W E S T</title>
+
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link rel='stylesheet' type='text/css' href='west.css'>
+
   <script   src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 </head>
+
+<!-- navbar -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#codebrainery-toggle-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./home.html">T O D O L O N D O N</a>
+    </div>
+  <div class="collapse navbar-collapse" id="codebrainery-toggle-nav">
+  <ul class="nav navbar-nav">
+    <li class="home">
+      <a class="home_title" href="./home.html">HOME</a>
+    </li>
+    <li class="north">
+      <a href="./north.html">NORTH</a>
+    </li>
+    <li class="east">
+      <a href="./east.html">EAST</a>
+    </li>
+    <li class="west">
+      <a href="./west.html">WEST</a>
+    </li>
+    <li class="south">
+      <a href="./south.html">SOUTH</a>
+    </li>
+  </ul>
+  </div>
+</div>
+</nav>
 
 <body>
 <div class="container-fluid">
@@ -25,7 +65,7 @@
 		</div>
 	</div>
 	<br />
-	
+
 	<div class="row">
 			<div class="col-md-6">
 			<img class="img-responsive" alt="The Kyoto Garden" src="https://vg-images.condecdn.net/image/zkejv89JGXG/crop/810" width="550" height="350" />
@@ -40,9 +80,9 @@
 			</p>
 			<p> <img src="https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Website-Outline-32.png"> rbkc.gov.uk/leisure-and-culture/parks/holland-park
 			</p>
-		
+
 		</div>
-	
+
 	</div>
 	<br />
 	<div class="row">
@@ -50,7 +90,7 @@
 			<p class="MsoNormal">
 				<span>A short walk from Oxford Street, Pollock’s Toy Museum is a space dedicated to toys, the slightly forgotten toy theatre in particular.</span>
 			</p>
-			
+
 		</div>
 		<div class="col-md-6">
 			<img class="img-responsive" alt="Pollock’s Toy Museum" src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Pollock%27s_Toy_Museum%2C_Scala_Street_W1_-_geograph.org.uk_-_1568357.jpg" width="550" height="350" />
@@ -75,7 +115,7 @@
 			<p class="MsoNormal">
 				<span>sketch is a restaurant with extremely Instagram-friendly fluffy pink interior. “Vogue” described it as a great place of tea “with a twist”.</span>
 			</p>
-			
+
 		</div>
 		<div class="col-md-6">
 			<img class="img-responsive" alt="sketch" src="https://vg-images.condecdn.net/image/xryaJPB3bza/crop/810" width="550" height="350" />
@@ -83,7 +123,7 @@
 	</div>
 </div>
 
-<!-- navigation bar -->	
+<!-- navigation bar -->
 <div class="row">
 		<div class="col-md-12">
 			<ul class="nav">
@@ -92,9 +132,47 @@
 				</li>
 			</ul>
 		</div>
-</div>	
+</div>
+
+<!-- footer -->
+
+<div class="card">
+  <div class="card-body">
+    <ul class="card-body">
+      <li class="us">
+        <a href="./contactus.html" class="linkus">Contact us</a>
+      </li>
+      <li class="us">
+        <a href="./aboutus.html" class="linkus">About us</a>
+      </li>
+    </ul>
+
+    <div class="subsribe">
+     <h4>Subscribe to our mailing list!</h4><br>
+     <form>
+     <input type="text" placeholder="Name"/><br><br>
+     <input type="text" placeholder="Email"/><br><br>
+     <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+   </form>
+    </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <a href="http://facebook.com" class="fa fa-facebook"></a>
+    <a href="http://twitter.com" class="fa fa-twitter"></a>
+    <a href="http://instagram.com" class="fa fa-instagram"></a>
+
+<h2>Website designed by Moshsina Chowdhury, Yasmin Osman & Ada Kępińska.</h2>
+
+  </div>
+</div>
+
 
 <script src="./scripts.js"></script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

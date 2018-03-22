@@ -18,7 +18,12 @@ html,body {
 
  nav.navbar{
    background-color: white;
+<<<<<<< HEAD
    font-family: Andale Mono, monospace;
+=======
+   font-family: menlo;
+   font-family: 'Montserrat', sans-serif;
+>>>>>>> 46d718e418bc00a0cd3811c285c0fe0881929967
    opacity: 0.7;
  }
 

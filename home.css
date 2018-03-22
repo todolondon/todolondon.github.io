@@ -6,6 +6,7 @@ html,body {
   min-height:100%;
   background-color: white;
   padding-top: 70px;
+  font-family: 'Roboto Condensed', sans-serif; 
  }
 
  /*navbar css*/
@@ -251,6 +252,7 @@ div.h1 {
 .text {
   color: white !important;
   font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -262,6 +264,7 @@ div.h1 {
 .text2 {
   color: white !important;
   font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   top: 40%;
   left: 50%;

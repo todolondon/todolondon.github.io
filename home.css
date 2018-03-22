@@ -9,13 +9,15 @@ html,body {
 
  /* // Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) {
-   padding: 10px;
+   html,body {
+     padding: 10px;
+   }
  }
 
  /* // Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) {
    html,body {
-     padding: 10px;
+     padding: 40px;
      margin-left: 100px;
      margin-right: 100px;
    }
@@ -24,7 +26,7 @@ html,body {
  /* // Large devices (desktops, 992px and up) */
  @media (min-width: 992px) {
    html,body {
-     padding: 10px;
+     padding: 40px;
      margin-left: 100px;
      margin-right: 100px;
    }
@@ -33,14 +35,14 @@ html,body {
  /* // Extra large devices (large desktops, 1200px and up) */
  @media (min-width: 1200px) {
    html,body {
-     padding: 10px;
+     padding: 40px;
      margin-left: 100px;
      margin-right: 100px;
    }
  }
 
 
-h1 {
+div.h1 {
   color: black;
 }
 
@@ -113,7 +115,7 @@ h1 {
 }
 
 .text {
-  color: white;
+  color: white !important;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -123,6 +125,23 @@ h1 {
   text-align: center;
 }
 
-.span12{
-  border:solid 30px transparent;
+.text2 {
+  color: white !important;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* text-align: center; */
 }
+
+.span12{
+  border:solid 20px transparent;
+}
+
+/* h1.title {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+} */

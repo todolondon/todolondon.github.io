@@ -278,7 +278,7 @@ div.h1 {
   /* text-align: center; */
 }
 /* media query for making sure overlay is directly over text for very large screens */
-@media (min-width: 1200px){
+@media (min-width: 1800px){
   .text2 {
     top: 50%
   }

@@ -181,11 +181,7 @@ h3{
    }
  }
 
-
-div.h1 {
-  color: black;
-}
-
+/* start of images used in 4 pics */
 .northimg {
   background: url("./NORTH2.png");
   background-repeat: no-repeat;
@@ -214,6 +210,7 @@ div.h1 {
   background-size: 100% 100%;
 }
 
+/* makes sure the rows take up half the page */
 .line {
   height: 50%;
   padding: 0px;
@@ -222,12 +219,6 @@ div.h1 {
 .myheight {
   height: 100%
 }
-
-/* takes up full width of screen
-.container-fluid {
-  position: relative;
-  width: 50%;
-} */
 
 .image {
   display: block;
@@ -245,6 +236,7 @@ div.h1 {
   width: 100%;
   opacity: 0;
   transition: .3s ease;
+  /* linear gradient from black to transparent black */
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -278,19 +270,8 @@ div.h1 {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-/* media query for making sure overlay is directly over text for very large screens */
-/* @media (min-width: 1800px){
-  .text2 {
-    top: 50%
-  }
-} */
 
+/* adds a transparent border to all images */
 .span12{
   border:solid 20px transparent;
 }
-
-/* h1.title {
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-} */

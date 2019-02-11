@@ -183,28 +183,28 @@ h3{
 
 /* start of images used in 4 pics */
 .northimg {
-  background: url("./NORTH2.png");
+  background: url("./north_london-transport.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 .eastimg {
-  background: url("./EAST2.png");
+  background: url("./east_stratford-upon-avon.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 .westimg {
-  background: url("./WEST2.png");
+  background: url("./west_chelsea-townhouses.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 .southimg {
-  background: url("./SOUTH2.png");
+  background: url("./south_battersea-power-station-1512758.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
